@@ -1,7 +1,7 @@
 import React from 'react'
 import './Item.css'
 
-const Item = (props) => {
+export const Item = (props) => {
     return (
         <div className='item'>
 
@@ -11,16 +11,14 @@ const Item = (props) => {
             <div className="item-prices">
 
                 <div className="item-price">
-                    {props.new_price}
+                    ${props.new_price}
                 </div>
 
                 <div className="item-price-old">
-                    {props.old_price}
+                    ${props.old_price}
                 </div>
                 
             </div>
         </div>
     )
 }
-
-export default Item
