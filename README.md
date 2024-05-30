@@ -12,4 +12,4 @@ src:
 src/Components/Assets
 src/Components/Navbar/Navbar.jsx => rafc  (creating component)
 
-
+- Clear cache `npm install --cache /tmp/empty-cache`
