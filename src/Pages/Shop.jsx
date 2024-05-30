@@ -1,9 +1,17 @@
+// import React from 'react'
+
+// const Shop = () => {
+//   return (
+//     <div>Shop</div>
+//   )
+// }
+
+// export default Shop
+
 import React from 'react'
 
-const Shop = () => {
+export const Shop = () => {
   return (
     <div>Shop</div>
   )
 }
-
-export default Shop
